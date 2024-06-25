@@ -5,9 +5,6 @@ import re  # Library for regular expression operations
 from nltk.sentiment.vader import SentimentIntensityAnalyzer  # VADER sentiment analysis
 import nltk
 
-# Download the VADER lexicon
-nltk.download('vader_lexicon')
-
 def get_finviz_news(ticker):
     # Construct the URL for the given ticker
     url = f'https://finviz.com/quote.ashx?t={ticker}&p=d'
