@@ -7,5 +7,7 @@ Then, Vader sentiment analysis generates a score for each headline and aggregate
 
 Future Goals:
 
+- Update ReadMe with better visuals and clean up code
+- Reformat the current state to follow more OOPs
 - Incorporate Alpha Vantage API to track the stock price at both the start and end of the day
-- Train an ML model with day-by-day data to simulate/project what the stock price will be in real-time after each headline.
+- Train an ML model with day-by-day data to simulate/project what the stock price will be in real time after each headline.
